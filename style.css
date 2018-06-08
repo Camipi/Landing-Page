@@ -1,0 +1,165 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+}
+
+/*Header + banner*/
+
+.header {
+	text-align: center;
+}
+
+.banner {
+	position: relative;
+	height: 500px;
+	background-image: url('images/bg.jpeg')
+}
+
+#logo {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	top: 50px;
+	left: 200px;
+}
+
+.banner ul {
+	position: absolute;
+	top: 50px;
+	right: 200px;
+	color: white;
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+	padding-left: 20px;
+}
+
+.banner ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.banner_text h1 {
+	font-size: 40px;
+	font-weight: lighter;	
+	color: white;
+	position: absolute;
+	top: 120px;
+	left: 400px;
+}
+
+.banner_text_2 p {
+	color: white;
+	position: absolute;
+	top: 400px;
+	left: 350px;
+}
+
+.botones {
+	position: absolute;
+	top: 350px;
+	left: 680px;
+}
+
+.boton_1 button {
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	background-color: blue;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+	float: left;
+	left: 5px;
+	font-size: 15px;
+}
+
+.boton_2 button {
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	background-color: green;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+	right: 5px;
+	font-size: 15px;
+}
+
+/*Header + banner fin*/
+
+/*Seccion bootcamp*/
+
+.parrafo_1 p {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.parrafo_2 p {
+	text-align: center;
+	font-weight: lighter;
+}
+
+.content img {
+	width: 500px;
+	margin-left: 450px;
+	margin-top: 50px;
+}
+
+/*Seccion bootcamp fin*/
+
+/*Seccion solicita información*/
+
+.content_2 {
+	text-align: center;
+	background-color: #ededed;
+	padding: 30px;
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+.parrafo_3 p {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.boton {
+	padding: 10	px;
+}
+
+.boton button {
+	padding: 5px;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	border: 0;
+	background-color: #4277FF;
+	font-size: 15px;
+
+}
+
+/*Seccion solicita información fin*/
+
+/*Contacto*/
+
+.contacto {
+	
+}
+
+.contacto_1 {
+	margin-top: 50px;
+	margin-left: 300px;
+	line-height: 5px;
+}
+
+.cp1 {
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
